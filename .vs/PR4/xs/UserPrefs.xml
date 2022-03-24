@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{D0FE8AEA-1AFF-491B-983B-C315DB757C00}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PR4/Program.cs">
+    <Files>
+      <File FileName="PR4/Program.cs" Line="15" Column="13" />
+      <File FileName="PR4/Invoice.cs" Line="17" Column="27" />
+      <File FileName="PR4/Document.cs" Line="14" Column="30" />
+      <File FileName="PR4/Order.cs" Line="32" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PR4" expanded="True">
+            <Node name="PR4" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PR4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

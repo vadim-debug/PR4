@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace PR4
 {
-    interface IOrder:IDocument
+     interface IOrder:IDocument
     {
         void Payment();
     }
-     class Order: IOrder
+      class Order: IOrder
     {
         protected string Status;
         protected DateTime DateShipment;

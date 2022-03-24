@@ -10,8 +10,8 @@ namespace PR4
     {
         static void Main(string[] args)
         {
-            
-            
+            Order first = new Order("sdsd");
+            first.Payment();
 
         }
     }
