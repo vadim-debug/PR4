@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PR4
 {
-    interface IDocument
+    public interface IDocument
     {
         void Delete();
         void Cancel();

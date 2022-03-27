@@ -24,7 +24,7 @@ namespace PR4
         {
             Console.WriteLine("Заказ отменён");
         }
-        public virtual void Payment()
+        public  void Payment()
         {
             Console.WriteLine("Заказ оплачен");
         }
