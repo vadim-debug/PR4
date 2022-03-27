@@ -10,17 +10,17 @@ namespace PR4
     {
         void Payment();
     }
-     class Order: IOrder
+     class Order: Document, IOrder
     {
         protected string Status;
         protected DateTime DateShipment;
         protected DateTime DatePayment;
         protected int Price;
-        public virtual void Delete()
+        public override void Delete()
         {
             Console.WriteLine("Заказ удален");
         }
-        public virtual void Cancel()
+        public override void Cancel()
         {
             Console.WriteLine("Заказ отменён");
         }
@@ -33,14 +33,9 @@ namespace PR4
         {
             this.Status = Status;
         }
-        public Order(DateTime DateShipment)
-        {
-            this.DateShipment = DateShipment;
-        }
-        public Order(DateTime DatePayment, int Price)
-        {
-            this.DatePayment = DatePayment;
-            this.Price = Price;
-        }
+        public Order() { }
+        
+        public Order(DateTime DatePayment, int Price) { }
+        
     }
 }

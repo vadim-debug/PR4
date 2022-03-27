@@ -24,18 +24,12 @@ namespace PR4
         {
             Console.WriteLine("документ отменён");
         }
-        public Document(int Number)
-        {
-            this.Number = Number;
-        }
-        public Document(DateTime Date)
-        {
-            this.Date = Date;
-        }
-        public Document (int Number, DateTime Date)
-        {
-            this.Date = Date;
-            this.Number = Number;
-        }
+        public Document() { }
+        public Document(int Number) { }
+        
+        public Document(DateTime Date) { }
+        
+        public Document(int Number, DateTime Date) { }
+       
     }
 }
